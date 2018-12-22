@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> 1 <= average_score <= 10
+          >>> longer_than_five == 35453
           True
           """,
           'hidden': False,
