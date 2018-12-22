@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> 0.58 <= chance_of_all_different <= 0.68
+          >>> longer_than_five == 35453
           True
           """,
           'hidden': False,
