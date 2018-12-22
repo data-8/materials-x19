@@ -1,0 +1,5 @@
+psycopg2-binary
+async_timeout
+oauthlib
+lxml
+aiohttp

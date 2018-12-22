@@ -1,0 +1,11 @@
+# systemd service for cloud-sql-proxy
+[Unit]
+Description=csql
+
+[Service]
+ExecStart=/usr/local/bin/cloud_sql_proxy -dir /var/run/csql -instances data8x-scratch:us-central1:prod-hubshard-db-instance,data8x-scratch:us-central1:prod-nfs-db-instance 
+WorkingDirectory=/usr/local/bin
+
+[Install]
+WantedBy=network.target
+
