@@ -1,6 +1,6 @@
 {
   "name": "Lab 3: Tables",
-  "endpoint": "cal/data8/x18/lab03",
+  "endpoint": "cal/data8/x19/lab03",
   "src": [
     "lab03.ipynb"
   ],

@@ -1,6 +1,6 @@
 {
   "name": "World Progress: Global Population",
-  "endpoint": "cal/data8/x18/lab05",
+  "endpoint": "cal/data8/x19/lab05",
   "src": [
     "lab05.ipynb"
   ],

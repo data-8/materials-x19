@@ -1,6 +1,6 @@
 {
   "name": "Statistical Inference and Capital Punishment, Part 1",
-  "endpoint": "cal/data8/x18/lab03",
+  "endpoint": "cal/data8/x19/lab03",
   "src": [
     "lab03.ipynb"
   ],

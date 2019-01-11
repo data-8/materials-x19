@@ -1,6 +1,6 @@
 {
   "name": "Sample Means and Correlation",
-  "endpoint": "cal/data8/x18/lab01",
+  "endpoint": "cal/data8/x19/lab01",
   "src": [
     "lab01.ipynb"
   ],

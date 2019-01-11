@@ -1,6 +1,6 @@
 {
   "name": "World Progress: Global Poverty",
-  "endpoint": "cal/data8/x18/lab06",
+  "endpoint": "cal/data8/x19/lab06",
   "src": [
     "lab06.ipynb"
   ],

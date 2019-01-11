@@ -1,6 +1,6 @@
 {
   "name": "Song Classification with k-Nearest Neighbors, part 1",
-  "endpoint": "cal/data8/x18/lab04",
+  "endpoint": "cal/data8/x19/lab04",
   "src": [
     "lab04.ipynb"
   ],
