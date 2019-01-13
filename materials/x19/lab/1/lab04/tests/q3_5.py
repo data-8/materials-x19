@@ -9,6 +9,7 @@ test = {
           >>> # Make sure to remove the "(No previous year)" CEOs 
           >>> "(No previous year)" not in with_previous_compensation.column("% Change")
           True
+
           """,
           'hidden': False,
           'locked': False
@@ -21,6 +22,7 @@ test = {
           >>> value = t.column("2014 Total Pay ($)").item(0)
           >>> math.isclose(value, 67700000.0, rel_tol = 1000)
           True
+
           """,
           'hidden': False,
           'locked': False
@@ -30,6 +32,7 @@ test = {
           >>> # You have the column, but your number of rows is off
           >>> with_previous_compensation.num_rows == 81
           True
+
           """,
           'hidden': False,
           'locked': False

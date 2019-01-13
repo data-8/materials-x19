@@ -10,6 +10,7 @@ test = {
           >>> import numpy
           >>> total_pay_type != numpy.ndarray
           True
+
           """,
           'hidden': False,
           'locked': False
@@ -18,6 +19,7 @@ test = {
           'code': r"""
           >>> 'str' in str(total_pay_type)
           True
+
           """,
           'hidden': False,
           'locked': False
@@ -27,6 +29,7 @@ test = {
           >>> # Make sure to call the type function on a value in the column
           >>> total_pay_type != int
           True
+
           """,
           'hidden': False,
           'locked': False

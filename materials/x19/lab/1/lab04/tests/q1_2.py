@@ -8,6 +8,7 @@ test = {
           'code': r"""
           >>> str(mark_hurd_pay_string)
           '$53.25 '
+
           """,
           'hidden': False,
           'locked': False
