@@ -1,8 +1,8 @@
-Data 8X Public Materials for 2018
+Data 8X Public Materials for 2019
 =======
 
 This repo contains the publicly available materials that are used in the Data 8X
-Foundations of Data Science course offered on EdX in 2018.
+Foundations of Data Science course offered on EdX in the self paced version.
 
 This includes: labs and notebooks used in lecture.
 
