@@ -10,7 +10,7 @@ RUN pip3 install --no-cache-dir \
         ipywidgets \
         scipy
 
-RUN pip3 install --no-cache-dir okgrade==0.4.3
+RUN pip3 install --no-cache-dir gofer-grader==1.0.3
 
 COPY . /srv/repo
 
