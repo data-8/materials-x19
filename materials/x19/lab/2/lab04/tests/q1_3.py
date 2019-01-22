@@ -8,7 +8,7 @@ test = {
           'code': r"""
           >>> death_penalty_murder_rates.num_rows
           1936
-          >>> non_death_penalty_murder_rates.labels
+          >>> death_penalty_murder_rates.labels
           ('State', 'Year', 'Population', 'Murder Rate')
           >>> death_penalty_murder_rates.column(2).item(17)
           3690000
