@@ -1,0 +1,15 @@
+{
+  "name": "Homework 9: Central Limit Theorem",
+  "endpoint": "cal/data8/fa18/hw09",
+  "src": [
+    "hw09.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}

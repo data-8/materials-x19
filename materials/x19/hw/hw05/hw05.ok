@@ -1,0 +1,15 @@
+{
+  "name": "Homework 5: Pivot Tables and Iteration",
+  "endpoint": "cal/data8/fa18/hw05",
+  "src": [
+    "hw05.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
