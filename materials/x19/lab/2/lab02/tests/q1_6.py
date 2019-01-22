@@ -15,10 +15,11 @@ test = {
           True
           >>> abs(11 - (np.mean(observations) - mean_based_estimator(observations))) < 4
           True
+
           """,
           'hidden': False,
           'locked': False
-        }
+        },
       ],
       'scored': True,
       'setup': '',

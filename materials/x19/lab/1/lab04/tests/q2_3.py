@@ -8,10 +8,11 @@ test = {
           'code': r"""
           >>> disemvowel("Datascience rules!") == "Dtscnc rls!"
           True
+
           """,
           'hidden': False,
           'locked': False
-        }
+        },
       ],
       'scored': True,
       'setup': '',
