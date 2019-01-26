@@ -4,7 +4,7 @@ Grade a given ipynb file with okpy tests
 import argparse
 import os
 from glob import glob
-from okgrade.notebook import grade_notebook
+from gofer.ok import grade_notebook
 
 def main():
     argparser = argparse.ArgumentParser()
@@ -23,6 +23,6 @@ def main():
 
     result = grade_notebook(ipynb_path, test_files)
 
-    print(result.grade)
+    print(result)
 
 main()
