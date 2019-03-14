@@ -8,11 +8,11 @@ test = {
           'code': r"""
           >>> # The array should have length 2
           >>> len(coin_model_probabilities) == 2
-          81940448490c2b3970847654589f94e7
+          True
           # locked
           >>> # The elements in the array should add up to 1.
           >>> sum(coin_model_probabilities) == 1
-          81940448490c2b3970847654589f94e7
+          True
           # locked
           """,
           'hidden': False,
