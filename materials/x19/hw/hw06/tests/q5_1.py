@@ -9,11 +9,9 @@ test = {
           >>> # The array should have length 2
           >>> len(coin_model_probabilities) == 2
           True
-          # locked
           >>> # The elements in the array should add up to 1.
           >>> sum(coin_model_probabilities) == 1
           True
-          # locked
           """,
           'hidden': False,
           'locked': True
