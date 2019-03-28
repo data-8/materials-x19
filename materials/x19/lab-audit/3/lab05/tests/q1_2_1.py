@@ -8,9 +8,7 @@ test = {
           'code': r"""
           >>> from collections import Counter
           >>> g = train_lyrics.column('Genre')
-          >>> def check(r, k):
-              t = test_20.row(r)
-              return classify(t, train_20, g, k) == Counter(np.take(g, np.argsort(fast_distances(t, train_20))[:k])).most_common(1)[0][0]
+          >>> check = lambda r, k: (classify(test_20.row(r), train_20, g, k) == Counter(np.take(g, np.argsort(fast_distances(test_20.row(r), train_20))[:k])).most_common(1)[0][0])
           >>> check(0, 5)
           True
           >>> check(0, 11)
