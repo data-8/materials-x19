@@ -7,9 +7,7 @@ test = {
         {
           'code': r"""
           >>> from collections import Counter
-          >>> def check(r):
-              t = test_20.row(r)
-              return classify(t, train_20, train_lyrics.column('Genre'), 5) == classify_one_argument(t)
+          >>> check = lambda r: (classify(test_20.row(r), train_20, train_lyrics.column('Genre'), 5) == classify_one_argument(test_20.row(r)))
           >>> check(0)
           True
           >>> check(1)
