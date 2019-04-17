@@ -1,0 +1,15 @@
+{
+  "name": "Introduction and Practice with Jupyter Notebooks",
+  "endpoint": "cal/data8/x19/lab00",
+  "src": [
+    "lab00.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
