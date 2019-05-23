@@ -6,10 +6,10 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> (slope*13 - 100)/98 <= 0.5
+          >>> np.isclose(slope, 10.72, atol=0.3)
           True
-          >>> (182 + intercept*(-4)) / 201 >= 0.3
-          False
+          >>> np.isclose(intercept, 33.47, atol=0.1)
+          True
           """,
           'hidden': False,
           'locked': False
