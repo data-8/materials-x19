@@ -1,0 +1,98 @@
+{
+  "server_url": "http://data-8x-nbforms.herokuapp.com/",
+  "notebook": "8x1_1",
+  "questions": [
+    {
+      "identifier": "q1",
+      "type": "multiplechoice",
+      "question": "How worthwhile was the lab for you on a scale of 1 to 5? 1 Being not worthwhile and 5 being very worthwhile.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "identifier": "q2",
+      "type": "paragraph",
+      "question": "Were there any questions that were particularly difficult for you? If so, why?",
+      "placeholder": "None were!"
+    },
+    {
+      "identifier": "q3",
+      "type": "paragraph",
+      "question": "Is there anything in this lab that you would like to change?",
+      "placeholder": "Nothing!"
+    },
+    {
+      "identifier": "q4",
+      "type": "multiplechoice",
+      "question": "How difficult was the lab for you on a scale of 1 to 5? 1 Being too easy, 5 being too hard, and 3 being just right.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "identifier": "q5",
+      "type": "multiplechoice",
+      "question": "What best describes yourself?",
+      "options": [
+        "Secondary School Student or Younger",
+        "Undergraduate Student",
+        "Graduate Student",
+        "Working Professional",
+        "Other"
+      ]
+    },
+    {
+      "identifier": "q5_1",
+      "type": "text",
+      "question": "If you responded "Other" to the previous question, what is that other option?",
+      "placeholder": "N/A"
+    },
+    {
+      "identifier": "q6",
+      "type": "multiplechoice",
+      "question": "What best describes your previous computer science experience?",
+      "options": [
+        "I have no computer science experience at all",
+        "I have taken one or two introductory courses",
+        "I self-learned as much as I could",
+        "I earned a degree in computer science",
+        "I have multiple years of industry experience in this field including my degree",
+        "I have multiple years of industry experience in this field without a degree"
+      ]
+    },
+    {
+      "identifier": "q7",
+      "type": "multiplechoice",
+      "question": "What is your previous statistics experience?",
+      "options": [
+        "I have no statistics experience at all",
+        "I have taken one or two introductory courses",
+        "I self-learned as much as I could",
+        "I earned a degree in statistics",
+        "I have multiple years of industry experience in this field including my degree",
+        "I have multiple years of industry experience in this field without a degree"
+      ]
+    },
+    {
+      "identifier": "q8",
+      "type": "text",
+      "question": "How did you find out about this course?",
+      "placeholder": "Through the internet!"
+    },
+    {
+      "identifier": "q9",
+      "type": "text",
+      "question": "Why are you taking this class?",
+      "placeholder": "Because data science is fun!"
+    },
+  ]
+}
