@@ -53,7 +53,7 @@
     {
       "identifier": "q5_1",
       "type": "text",
-      "question": "If you responded "Other" to the previous question, what is that other option?",
+      "question": "If you responded \"Other\" to the previous question, what is that other option?",
       "placeholder": "N/A"
     },
     {
