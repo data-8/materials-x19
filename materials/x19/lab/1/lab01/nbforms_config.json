@@ -93,6 +93,6 @@
       "type": "text",
       "question": "Why are you taking this class?",
       "placeholder": "Because data science is fun!"
-    },
+    }
   ]
 }
