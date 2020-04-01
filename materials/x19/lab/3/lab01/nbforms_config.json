@@ -1,6 +1,6 @@
 {
   "server_url": "http://data-8x-nbforms.herokuapp.com/",
-  "notebook": "8x1_1",
+  "notebook": "8x3_1",
   "auth": "none",
   "questions": [
     {
@@ -92,6 +92,24 @@
       "type": "text",
       "question": "Why are you taking this class?",
       "placeholder": "Because data science is fun!"
+    },
+    {
+      "identifier": "q10",
+      "type": "multiplechoice",
+      "question": "Did you finish the course Data 8.1x?",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "identifier": "q11",
+      "type": "multiplechoice",
+      "question": "Did you finish the course Data 8.2x?",
+      "options": [
+        "Yes",
+        "No"
+      ]
     }
   ]
 }
