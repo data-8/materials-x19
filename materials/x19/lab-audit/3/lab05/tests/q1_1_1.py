@@ -21,7 +21,7 @@ test = {
           >>> # classifier perform very poorly in some cases.  Try choosing
           >>> # at least 1 common word.
           >>> train_f = train_lyrics.select(my_20_features)
-          >>> np.count_nonzero(train_f.apply(lambda r: np.sum(np.abs(np.array(r))) == 0)) < 150
+          >>> np.count_nonzero(train_f.apply(lambda r: np.sum(np.abs(make_array(r))) == 0)) < 150
           True
           """,
           'hidden': False,
@@ -34,7 +34,7 @@ test = {
           >>> # classifier perform very poorly in some cases.  Try choosing
           >>> # at least 1 common word.
           >>> test_f = test_lyrics.select(my_20_features)
-          >>> np.count_nonzero(test_f.apply(lambda r: np.sum(np.abs(np.array(r))) == 0)) < 100
+          >>> np.count_nonzero(test_f.apply(lambda r: np.sum(np.abs(make_array(r))) == 0)) < 100
           True
           """,
           'hidden': False,
