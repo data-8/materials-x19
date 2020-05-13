@@ -20,7 +20,7 @@ test = {
         },
         {
           'code': r"""
-          >>> np.allclose(genre_and_distances.column('Distance'), sorted(fast_distances(test_20.row(0), train_20)))
+          >>> np.allclose(genre_and_distances.column('Distance'), sorted(fast_distances(make_array(test_20.row(0)), train_20)))
           True
           """,
           'hidden': False,
