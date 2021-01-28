@@ -1,0 +1,43 @@
+{
+  "server_url": "http://data-8x-nbforms.herokuapp.com/",
+  "notebook": "8x1_4",
+  "auth": "none",
+  "questions": [
+    {
+      "identifier": "q1",
+      "type": "multiplechoice",
+      "question": "How worthwhile was the lab for you on a scale of 1 to 5?",
+      "options": [
+        "1 - Not Worthwhile",
+        "2",
+        "3",
+        "4",
+        "5 - Very Worthwhile"
+      ]
+    },
+    {
+      "identifier": "q2",
+      "type": "paragraph",
+      "question": "Were there any questions that were particularly difficult for you? If so, why?",
+      "placeholder": "None were!"
+    },
+    {
+      "identifier": "q3",
+      "type": "paragraph",
+      "question": "Is there anything in this lab that you would like to change?",
+      "placeholder": "Nothing!"
+    },
+    {
+      "identifier": "q4",
+      "type": "multiplechoice",
+      "question": "How difficult was the lab for you on a scale of 1 to 5?",
+      "options": [
+        "1 - Too Easy",
+        "2",
+        "3 - Just right!",
+        "4",
+        "5 - Too Hard"
+      ]
+    }
+  ]
+}
